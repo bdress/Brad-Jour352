@@ -8,6 +8,7 @@ body {
 }
 
 /* my banner */
+
 h1 {
   font-size: 3em;
   color: #33485e;
@@ -15,41 +16,128 @@ h1 {
   text-align: center;
 }
 
+#name {
+  font-size: 3em;
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 1px solid #33485e;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.lists {
+  display: inline;
+}
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin:0 auto;
+  padding-bottom: 50px;
+}
+
 /* job and section titles */
 
-.title {
-  text-transform: "uppercase";
+/*for my title only */
+
+#title {
+  text-transform: uppercase;
   color: #334853;
-  text-align: "center";
-  font-size: 1.5 em;
+  text-align: center;
+  font-size: 2.0 em;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-weight: 600;
 }
 
 .sectiontitle {
   font-size: 1.5em;
-  text-transform: 'uppercase';
+  text-transform: uppercase;
   padding-left: 10px;
   color: white;
   background-color: #334853;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 70%;
+  min-width: 300px;
+  text-align: left;
 }
 
-#jobtitles {
-  font-size: 1.5em;
+.jobtitles {
+  font-size: 1.25em;
   font-weight: 600;
+  text-align: left;
 }
 
-#joborganization {
+.joborganization {
   font-size: 1.5em;
   font-weight: 400;
+  text-align: left;
 }
 
-#jobdates {
+
+.jobdates {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
   font-weight: 400;
   font-size: 1em;
-
+  text-align: left;
 }
 
-/* all list items */
+/* all list items after paragraphs */
+
+/*paragrpaph items below */
+
+.description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: left;
+}
 
 .extra {
   font-size: 1em;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+#degrees {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#do {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.menu {
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: opx;
+  margin-top: 0px
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/* for my mission statement */
+
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
