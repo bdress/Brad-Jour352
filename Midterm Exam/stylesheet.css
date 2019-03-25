@@ -1,0 +1,56 @@
+
+/* main container div */
+
+#container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+/* paragraphs and headings */
+
+h1 {
+font-family: Impact, serif;
+font-size: 30px;
+}
+
+h2 {
+font-family: Impact, serif;
+font-size: 22px;
+}
+
+h3 {
+  border-bottom: 2px solid black;
+}
+
+p [
+font-family: Helvetica, Arial, sans-serif;
+font-size: 12px;
+]
+
+
+/* IDs and classes below */
+
+#byline {
+  font-family: Helvetica, serif;
+  font-style: italic;
+  font-size: 25px;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+
+#strong {
+  font-style: bold;
+  font-size: 16px;
+
+}
+
+#block {
+  font-family: Helvetica, serif;
+  font-size: 16px;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
