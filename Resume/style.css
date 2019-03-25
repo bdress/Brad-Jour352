@@ -1,13 +1,8 @@
-/* styles for my resume*/
 
-body {
-  font-family: "open sans", arial, sans-serif;
-  font-size: 1em;
-  color: #444;
-  font-weight: 400;
-}
 
-/* my banner */
+
+/* styles for my resume--main ids and callouts below*/
+
 
 h1 {
   font-size: 3em;
@@ -16,28 +11,31 @@ h1 {
   text-align: center;
 }
 
+
 #name {
-  font-size: 3em;
-  text-transform: uppercase;
-  text-align: center;
+  font-size: 4em;
   border-bottom: 1px solid #33485e;
-  width: 60%;
-  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .lists {
-  display: inline;
+  border: 1px solid green;
+  background-color: black;
+  font-size: 20px;
+  font-family: helvetica;
+  font-style: italic;
 }
+
+
 #container {
   width: 100%;
-  max-width: 1200px;
-  margin:0 auto;
   padding-bottom: 50px;
 }
 
-/* job and section titles */
 
-/*for my title only */
+
+/* job and section titles */
 
 #title {
   text-transform: uppercase;
@@ -51,93 +49,152 @@ h1 {
   font-weight: 600;
 }
 
-.sectiontitle {
+h1 {
   font-size: 1.5em;
   text-transform: uppercase;
   padding-left: 10px;
-  color: white;
-  background-color: #334853;
+  color: black;
   margin-top: 20px;
   margin-bottom: 10px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 200px;
+  margin-right: 200px;
   width: 70%;
-  min-width: 300px;
-  text-align: left;
+  text-align: center;
+  font-family: helvetica;
+  font-style: italic;
+
 }
 
-.jobtitles {
+h2 {
   font-size: 1.25em;
   font-weight: 600;
-  text-align: left;
+  text-align: center;
+  color: white;
 }
 
-.joborganization {
+h3 {
   font-size: 1.5em;
   font-weight: 400;
-  text-align: left;
+  text-align: center;
+  color: white;
 }
 
 
-.jobdates {
+h4 {
+  color: white;
   margin-top: 20px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
   font-weight: 400;
   font-size: 1em;
-  text-align: left;
+  text-align: center;
 }
 
-/* all list items after paragraphs */
 
-/*paragrpaph items below */
+
+/*paragrpaph items, lists and extra IDS below */
+
+
+#descriptiontop {
+font-family: arial, sans-serif;
+font-weight: bold;
+font-size: 1em;
+}
 
 .description {
+  color: white;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 0px;
   margin-right: 0px;
-  text-align: left;
+  text-align: center;
+  border-bottom: 5px ridge grey;
+  padding: 25px;
+}
+
+#strong {
+  font-size: 3em;
+  font-style: italic;
 }
 
 .extra {
   font-size: 1em;
   margin-bottom: 20px;
-  text-align: left;
-}
-
-#degrees {
-  margin-top: 5px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
-#do {
-  margin-top: 5px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-}
-.menu {
   text-align: center;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: opx;
-  margin-top: 0px
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  list-style-position: inside;
+  border-bottom: 1px ridge grey;
 }
 
-/* for my mission statement */
+#allstar {
+  display: block;
+  margin: auto;
+  width: 20%;
+  border-radius: 50%;
+  padding: 20px;
 
-.top {
-  width: 60%;
-  min-width: 300px;
-  margin: 0 auto;
-  margin-bottom: 30px;
-  margin-top: 30px;
+}
+
+
+.do {
+  position:relative;
+  display: inline-block;
+  list-style: none;
+  width:100%;
+  text-align: center;
+  margin: auto;
+  padding: 0;
+}
+
+#intro {
+text-align: center;
+margin: auto;
+width: 40%;
+}
+
+
+/* navbar */
+
+.affix {
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+
+.affix + .stick {
+  padding-top: 70px;
+}
+
+
+
+
+
+/* for sections only */
+
+
+#section1 {
+  background-color: gray;
+}
+
+#section2 {
+  background-color: brown;
+}
+
+#section3 {
+  background-color: beige;
+}
+
+#jumbotron {
+  background-image:url(bookcasae.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#bannerphoto {
+  background-color: black;
+  opacity: .6;
+  width: 75%;
+  margin: auto;
+  display: block;
 }
