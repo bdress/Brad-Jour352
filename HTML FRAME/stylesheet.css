@@ -1,0 +1,34 @@
+.headline {
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  font-family: helvetica, arial, sans-serif;
+}
+
+.byline {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: helvetica, arial, sans-serif;
+  text-align: center;
+}
+
+p {
+  font-size: 1em;
+  font-family: georgia, times, serif;
+  line-height: 180%;
+}
+
+#container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.chapter {
+  text-align: left;
+}
+
+center {
+  display: block;
+  margin: 0 auto;
+  padding-top: 25px;
+}
