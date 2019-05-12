@@ -1,0 +1,135 @@
+/* headers and intro items */
+.headline {
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  font-family: helvetica, serif;
+}
+
+h2 {
+  color: #003366;
+}
+
+h3 {
+  margin-bottom: 50px;
+}
+
+.byline {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: helvetica, serif;
+  text-align: center;
+}
+
+#container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#top {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.block {
+  font-family: helvetica, serif;
+  font-size: 2em;
+  border-bottom: 5px solid black;
+  margin-bottom: 50px;
+}
+
+.chapter {
+  text-align: left;
+}
+
+#three {
+  text-align: center;
+  padding-right: 200px;
+
+}
+
+
+
+/* images and spacing */
+
+#icon {
+  margin-left: 100px;
+}
+
+#icontwo {
+  margin-right: 50px;
+}
+
+#four {
+  border-bottom: 5px ridge black;
+  margin-top: 100px;
+}
+
+.space {
+  margin-bottom: 5px;
+  margin-top: 100px;
+}
+
+
+
+/* paragraphs */
+
+p {
+  font-size: 1.5em;
+  font-family: georgia, times, serif;
+  line-height: 180%;
+  margin-right: 5px;
+}
+
+#intro {
+  font-family: helvetica, serif;
+  font-size: 2em;
+}
+
+.break {
+  border-bottom: 5px ridge black;
+}
+
+
+
+/* footer */
+
+#footer {
+  background-color: black;
+  padding: 25px;
+}
+
+#footertext {
+  font-family: Georgia, serif;
+  color: white;
+}
+
+
+/* jumbo */
+#jumbotron {
+  background-image: url(blur.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 2px;
+}
+
+.jumbo {
+  text-align: center;
+  font-size: 3em;
+  font-family: helvetica;
+}
+
+#jum {
+  background-color: brown;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#speed {
+  color: white;
+}
+
+#tons {
+  color: #003366;
+}
